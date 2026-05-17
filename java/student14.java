@@ -49,7 +49,9 @@ class Main{
         Result r = new Result();
        
 
-       r.displayStudent();
+         r.readStudent();        // ADDED
+        r.s1.readSports();      // ADDED
+        r.displayStudent();
         r.s1.displaySports();
         r.displayResult();
     }
